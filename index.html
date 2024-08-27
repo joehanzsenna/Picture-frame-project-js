@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Picture Frame project</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Picture Frame</h1>
+        <div>
+            <div class="border">
+                <div class="padding">
+                    <div class="content">
+                        <img src="./Assets/Picture01.jpg" alt="" class="img">
+                    </div>
+                </div>
+            </div>
+            <div class="inputs">
+                <div class="sliders">
+                    <h2>Border:</h2>
+                    <input type="range" id="border-range" min="10" max="100">
+                    <h2>Padding:</h2>
+                    <input type="range" id="padding-range" min="10" max="100">
+                    <h2>Content:</h2>
+                    <input type="range" id="content-range" min="10" max="100">
+                </div>
+                <div class="colors">
+                    <h2>Border:</h2>
+                    <input type="color" name="" id="border-color">
+                    <h2>Padding:</h2>
+                    <input type="color" name="" id="padding-color">
+                    <h2>Content:</h2>
+                    <input type="color" name="" id="content-color">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- discriptions
+    This project was created with this link from freeCodeCamp
+    https://www.freecodecamp.org/news/learn-how-to-manipulate-css-with-javascript-by-coding-a-dynamic-picture-frame/ -->
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    flex-direction: column;
+    padding: 4rem 0;
+}
+.border{
+background-color: #0b67c4;
+padding: 3rem;
+border-radius: 5px;
+}
+.padding{
+background-color: #42b3dd;
+padding: 45px;
+}
+.content{
+background-color: #299baf;
+padding: 45px;
+font-size: 78px;
+}
+.inputs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    justify-items: center;
+    margin: 2rem 0 0;
+}
+.sliders{
+margin-right: 30px;
+justify-self: start;
+margin-bottom: 1rem;
+}
+.sliders > h2{
+    margin-bottom: .3rem;
+}
+.colors{
+    justify-self: end;
+}
